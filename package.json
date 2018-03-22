@@ -1,6 +1,6 @@
 {
   "name": "quickbase-cli",
-  "version": "1.5.2",
+  "version": "2.1.0",
   "description": "Command line tool for custom QuickBase development",
   "main": "bin/qb.js",
   "bin": {
@@ -19,8 +19,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "chokidar": "^1.6.0",
-    "commander": "^2.11.0",
-    "inquirer": "^3.2.1"
+    "chokidar": "^2.0.0",
+    "commander": "^2.13.0",
+    "inquirer": "^5.0.0"
   }
 }
