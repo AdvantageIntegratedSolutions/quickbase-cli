@@ -90,6 +90,6 @@ For now this is only a wrapper around `git clone`. After you pull down a repo yo
 
 ## Notes
 
-* Instead of exposing your password for the `quickbase-cli.config.js` file you can rely on environment variables called `QUICKBASE_CLI_PASSWORD` and `QUICKBASE_CLI_USERNAME`. If you have those variables defined and leave the `username` and `password` fields empty when prompted, the `qb deploy` command will use these environment variables instead. 
+* Instead of exposing your password for the `quickbase-cli.config.js` file you can rely on environment variables called `QUICKBASE_CLI_PASSWORD` and `QUICKBASE_CLI_USERNAME`. If you have those variables defined and leave the `username` and `password` fields empty when prompted, the `qb deploy` command will use these environment variables instead.
 
-* As of May 2018, Advantage is be defaulting to the quickstart credentials for new projects, so it is advised to keep those credentials in your .bash_profile or .bashrc
+* As of May 2018, Advantage is defaulting to the quickstart credentials for new projects, so it is advised to keep those credentials in your .bash_profile or .bashrc.
