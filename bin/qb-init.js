@@ -36,7 +36,7 @@ const QUESTIONS = [
     type: 'input',
     name: 'appName',
     message:
-      'Code page prefix (leave blank to disable prefixing uploaded pages):'
+      'App Name (leave blank to disable prefixing uploaded pages):'
   }
 ];
 
