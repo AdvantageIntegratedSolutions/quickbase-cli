@@ -8,7 +8,8 @@ const QUESTIONS = [
   {
     type: 'input',
     name: 'username',
-    message: 'QuickBase username:'
+    message:
+      'QuickBase username (leave blank to use the QUICKBASE_CLI_USERNAME environment variable):'
   },
   {
     type: 'password',
