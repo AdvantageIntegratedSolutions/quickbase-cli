@@ -31,7 +31,7 @@ Below are the prompts (see the [Notes](#notes) below for an important advisory r
 ```javascript
 {
   name: 'username',
-  message: 'QuickBase username:'
+  message: 'QuickBase username (leave blank to use the QUICKBASE_CLI_USERNAME environment variable):'
 },
 {
   name: 'password',
@@ -90,8 +90,6 @@ For now this is only a wrapper around `git clone`. After you pull down a repo yo
 
 ## Notes
 
-* Instead of exposing your password for the `quickbase-cli.config.js` file you can rely on an environment variable called `QUICKBASE_CLI_PASSWORD`. If you have that variable defined and leave the `password` empty when prompted the `qb deploy` command will use it instead. Always practice safe passwords.
+* Instead of exposing your password for the `quickbase-cli.config.js` file you can rely on environment variables called `QUICKBASE_CLI_PASSWORD` and `QUICKBASE_CLI_USERNAME`. If you have those variables defined and leave the `username` and `password` fields empty when prompted, the `qb deploy` command will use these environment variables instead.
 
-* ~~Moves are being made to add cool shit like a build process, global defaults, awesome starter templates, and pulling down existing code files from QuickBase. They're not out yet, so for now you're on your own.~~
-
-* I no longer work with QuickBase applications, so the cool shit I had planned won't happen unless someone submits some dope pull requests.
+* As of May 2018, Advantage is defaulting to the quickstart credentials for new projects, so it is advised to keep those credentials in your .bash_profile or .bashrc.
