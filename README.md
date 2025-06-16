@@ -10,6 +10,11 @@ Requirements: [Node.js](https://nodejs.org/en/) >= 8
 npm install -g quickbase-cli
 ```
 
+for bash/zsh creds cli install local package
+```bash
+cd <this directory>
+npm i -g ./
+```
 ## Usage
 quickbase-cli can be used for basic QuickBase code page development. It's probably possible to use quickbase-cli with modern SPA cli tools (angular cli, create-react-app, vue cli, etc.), but I haven't actually tried it so let me know how it goes.
 
